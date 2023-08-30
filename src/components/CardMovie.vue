@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="card zoom-effect mt-2">
+  <div class="card zoom-effect mt-2" data-bs-toggle='modal' data-bs-target='#exampleModal' @click="$emit('open-modal', movies.id)">
     <div class="overflow-hidden">
       <img
         :src="'https://image.tmdb.org/t/p/w500' + movies.poster_path"

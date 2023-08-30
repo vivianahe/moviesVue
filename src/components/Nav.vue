@@ -1,8 +1,8 @@
 <script setup></script>
 <template>
   <div class="container mt-2 text-center">
-    <ul class="nav d-flex justify-content-center flex-wrap">
-      <li class="nav-item ml-2">
+    <ul class="nav d-flex justify-evenly  flex-wrap gap-3">
+      <li class="nav-item">
         <a
           class="nav-link active text-dark active-option"
           aria-current="page"
@@ -10,19 +10,19 @@
           ><b>IN THEATERS</b></a
         >
       </li>
-      <li class="nav-item ml-2">
+      <li class="nav-item">
         <a class="nav-link text-dark" href="#"><b>COMING SOON</b></a>
       </li>
-      <li class="nav-item ml-2">
+      <li class="nav-item">
         <a class="nav-link text-dark" href="#"><b>CHARTS</b></a>
       </li>
-      <li class="nav-item ml-2">
+      <li class="nav-item">
         <a class="nav-link text-dark"><b>TV SERIES</b></a>
       </li>
-      <li class="nav-item ml-2">
+      <li class="nav-item">
         <a class="nav-link text-dark"><b>TRAILERS</b></a>
       </li>
-      <li class="nav-item dropdown ml-2">
+      <li class="nav-item dropdown">
         <a
           class="nav-link dropdown-toggle text-dark"
           data-bs-toggle="dropdown"
